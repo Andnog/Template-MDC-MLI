@@ -1,8 +1,8 @@
-# Cookiecutter Data Science Template with EDA Example
+# Cookiecutter Data Science with EDA and Modeling Template 
 
 _A logical, reasonably standardized but flexible project structure for doing and sharing data science work._
 
-This project provides a generic template for data science projects, designed to facilitate organization and scalability. It includes a template of an Exploratory Data Analysis (EDA) notebook named `1.0 EDA.ipynb` in the `notebooks/` directory, offering a starting point for your data exploration and analysis.
+This project provides a generic template for data science projects, designed to facilitate organization and scalability. It includes a template for an Exploratory Data Analysis (EDA) notebook named `1.0 EDA.ipynb` in the `notebooks/` directory, offering a structured starting point for your data exploration and analysis. Additionally, a **Modeling notebook** (`2.0 Modeling.ipynb`) is provided to guide the process of building and evaluating machine learning models, making this template especially suited for machine learning workflows.
 
 **Cookiecutter Data Science (CCDS)** is a tool for setting up a data science project template that incorporates best practices. This template aims to help you kickstart your project with a solid foundation.
 
@@ -32,11 +32,20 @@ Replace `https://github.com/your_username/your_project_template.git` with the UR
 
 ## Included EDA Template
 
-This template includes an EDA notebook named `1.0 EDA.ipynb` located in the `notebooks/` directory. This notebook serves as a starting point for exploratory data analysis, helping you to:
+The repository contains the following main components:
 
-- Understand the structure and content of your dataset.
-- Identify patterns, anomalies, and relationships in the data.
-- Prepare the data for modeling.
+1. **1.0 EDA Notebook**: A comprehensive template for Exploratory Data Analysis, designed to help understand data distributions, relationships, and potential preprocessing needs. This notebook covers:
+   - Data overview and cleaning steps
+   - Descriptive statistics and visualizations
+   - Identification of missing values and handling techniques
+   - Feature engineering suggestions
+
+2. **2.0 Modeling Notebook**: A template focused on guiding the model development process. This notebook includes markdown sections for each step in the machine learning modeling process, helping to structure and streamline the creation of machine learning models. This notebook covers:
+   - Data preparation and preprocessing steps for modeling
+   - Selection of modeling techniques
+   - Hyperparameter tuning
+   - Model evaluation and performance metrics
+   - Interpretation of model results
 
 ## Project Structure
 
@@ -58,6 +67,7 @@ The directory structure of your new project will look like this:
 │
 ├── notebooks          <- Jupyter notebooks.
 │   └── 1.0 EDA.ipynb  <- Template notebook for exploratory data analysis.
+│   └── 2.0 Modeling.ipynb  <- Template notebook for machine learning model(s).
 │
 ├── pyproject.toml     <- Project configuration file with package metadata and tool settings.
 │
